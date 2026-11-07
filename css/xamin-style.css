@@ -20,8 +20,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 /*---------------------------------------------------------------------
                              Google Font
 -----------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+/* Karla and Lato are linked from each page's <head> (preconnect + display=swap). */
 
 /*---------------------------------------------------------------------
                               General

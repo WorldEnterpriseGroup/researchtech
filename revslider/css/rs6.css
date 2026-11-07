@@ -114,7 +114,7 @@ rs-sbg-px { pointer-events: none }
 
 
 .rtl {	direction: rtl;}
-@font-face {
+@font-face {font-display:swap;
   font-family: 'revicons';
   src: url('../fonts/revicons/revicons90c6.eot?5510888');
   src: url('../fonts/revicons/revicons90c6.eot?5510888#iefix') format('embedded-opentype'),
@@ -1115,7 +1115,6 @@ rs-loader.spinner0 {
 	width: 40px;
 	height: 40px;
 	background-color: #fff;
-	background-image:url(../assets/loader.gif);
 	background-repeat:no-repeat;
 	background-position: center center;
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);	
@@ -1140,7 +1139,6 @@ rs-loader.spinner1 {
 
 
 rs-loader.spinner5 	{	
-	background-image:url(../assets/loader.gif);
 	background-repeat:no-repeat;
 	background-position:10px 10px;
 	background-color:#fff;
